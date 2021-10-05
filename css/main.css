@@ -8,6 +8,8 @@
 
 body {
     height: 100vh;
+    color: #777;
+    font-weight: 700;
 }
 
 /* UTULITIES */
@@ -36,13 +38,57 @@ body {
     overflow: auto;
 }
 
-/* MAIN */
-.side-bar {
-    width: 250px;
-    height: 100%;
-    background: yellow;
+.p-tb-20px {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+.p-lr-20px {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2,h3 {
+    color: #fff;
+}
+
+/* MAIN */
+/* Side Bar */
+.side-bar {
+    justify-content: space-between;
+    width: 250px;
+    height: 100%;
+    background: #000;
+}
+
+.side-container .logo {
+    width: 75%;
+}
+
+.side-container .settings {
+    list-style: none;
+    margin-top: 30px;
+}
+
+
+.side-container .settings img {
+    width: 15%;
+}
+
+.side-container .playlist {
+    margin-top: 20px;
+}
+
+.side-container .playlist > div {
+    margin-top: 15px;
+}
+
+.side-bar .account hr {
+    border: 1px solid #777;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* Main Container */
 .main-container {
     background: red;
 }
