@@ -1,0 +1,53 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+/* UTULITIES */
+.debug-box {
+    height: 250px;
+    width: 250px;
+    background: green;
+    margin: 5px 0;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.overflow {
+    overflow: auto;
+}
+
+/* MAIN */
+.side-bar {
+    width: 250px;
+    height: 100%;
+    background: yellow;
+}
+
+.main-container {
+    background: red;
+}
+
+/* FOOTER */
+footer {
+    background: blue;
+}
