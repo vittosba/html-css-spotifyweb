@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body class="flex-column">
@@ -147,10 +148,80 @@
         </div>
     </main>
 
-    <footer class="app-player p-tb-20px">
-        <div class="player-album"></div>
-        <div class="player-controller"></div>
-        <div class="player-audio"></div>
+    <footer class="app-player flex-row">
+        <div class="player-album flex-row">
+            <img class="mr-10px" src="./spotify/img/sinister.jpeg" alt="">
+            <div class="info">
+                <h4>Sinister</h4>
+                <span>Brano Nome</span>
+            </div>
+            <div class="icons">
+                <button class="footer-button">
+                    <i class="far fa-heart"></i>
+                </button>
+                <button class="footer-button">
+                    <i class="far fa-folder"></i>
+                </button>
+            </div>
+        </div>
+        <div class="player-controller">
+            <ul>
+                <li>
+                    <button class="footer-button">
+                        <i class="fas fa-random"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="footer-button">
+                        <i class="fas fa-step-backward"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="footer-button">
+                        <i class="far fa-play-circle"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="footer-button">
+                        <i class="fas fa-step-forward"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="footer-button">
+                        <i class="fas fa-redo"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="timeline flex-row">
+                <span>0:25</span>
+                <div class="principal-bar">
+                    <div class="secondary-bar"></div>
+                </div>
+                <span>4:35</span>
+            </div>
+        </div>
+        <div class="player-audio flex-row">
+            <ul>
+                <li>
+                    <button class="footer-button">
+                        <i class="fas fa-list"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="footer-button">
+                        <i class="fas fa-desktop"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="footer-button">
+                        <i class="fas fa-volume-up"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="principal-bar">
+                <div class="secondary-bar"></div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
