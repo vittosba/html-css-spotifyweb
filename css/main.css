@@ -160,15 +160,15 @@ h2,h3 {
     color: #777;
 }
 
-.main-container .categories .cards .card {
+.main-container .category .albums .album {
     width: calc(100% / 6 - 10px);
     text-align: center;
+    list-style: none;
 }
 
-.main-container .categories .cards .card img {
+.main-container .category .albums .album img {
     width: 100%;
 }
-
 
 /* FOOTER */
 footer {
