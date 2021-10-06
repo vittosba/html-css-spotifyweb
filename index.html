@@ -13,50 +13,51 @@
 <body class="flex-column">
     <main class="flex-row flex-grow-1 overflow">
         <!-- SIDEBAR -->
-        <nav class="side-bar flex-column p-lr-20px ">
-            <div class="side-container p-tb-20px">
+        <aside class="side-bar flex-column">
+            <div class="side-container flex-grow-1 overflow p-tb-20px p-lr-20px">
                 <img class="logo" src="./spotify/img/logo.svg" alt="">
-                <ul class="settings">
-                    <li>
+                <ul class="settings mt-30px">
+                    <li class="mt-10px">
                         <img src="./spotify/img/home.svg" alt="">
-                        Home
+                        <span>Home</span>
                     </li>
-                    <li>
+                    <li class="mt-10px">
                         <img src="./spotify/img/search.svg" alt="">
-                        Cerca
+                        <span>Cerca</span>
                     </li>
-                    <li>
+                    <li class="mt-10px">
                         <img src="./spotify/img/libreria.svg" alt="">
-                        La Tua Libreria
+                        <span>La Tua Libreria</span>
                     </li>
                 </ul>
-                <div class="playlist">
+                <div class="playlist mt-20px">
                     <h3>PLAYLIST</h3>
-                    <div>Crea la tua Playlist</div>
-                    <div>Nome Playlist</div>
-                    <div>Nome Playlist</div>
-                    <div>Nome Playlist</div>
-                    <div>Nome Playlist</div>
-                    <div>Nome Playlist</div>
-                    <div>Nome Playlist</div>
+                    <div class="mt-20px">Crea la tua Playlist</div>
+                    <div class="mt-20px">Nome Playlist</div>
+                    <div class="mt-20px">Nome Playlist</div>
+                    <div class="mt-20px">Nome Playlist</div>
+                    <div class="mt-20px">Nome Playlist</div>
+                    <div class="mt-20px">Nome Playlist</div>
+                    <div class="mt-20px">Nome Playlist</div>
                 </div>
             </div>
-            <div class="account">
-                <div>Installa app</div>
-                <hr>
+            <div class="account p-lr-20px">
+                <div class="mt-10px">Installa app</div>
+                <hr class="mt-10px">
+                <img class="circle mt-10px mr-10px" src="./spotify/img/profile.svg" alt="">
                 <h3>John Doe</h3>
             </div>
-        </nav>
+        </aside>
 
         <!-- MAIN CONTAINER -->
         <div class="main-container flex-column flex-grow-1 overflow">
             <!-- CALL TO ACTION -->
-            <section class="call-to-action">
-                call-to-action
+            <section class="call-to-action p-tb-20px">
+                    <button class="button">EFFETTUA L'UPGRADE</button>
             </section>
     
             <!-- MAIN CONTENT -->
-            <section class="content overflow">
+            <section class="content overflow p-lr-20px">
                 <div class="debug-box"></div>
                 <div class="debug-box"></div>
                 <div class="debug-box"></div>

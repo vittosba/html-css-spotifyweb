@@ -48,14 +48,34 @@ body {
     padding-right: 20px;
 }
 
+.mt-20px {
+    margin-top: 20px;
+}
+
+.mt-10px {
+    margin-top: 10px;
+}
+
+.mt-30px {
+    margin-top: 30px;
+}
+
+.mr-10px {
+    margin-right: 10px;
+}
+
 h2,h3 {
     color: #fff;
+}
+
+.circle {
+    border-radius: 50%;
 }
 
 /* MAIN */
 /* Side Bar */
 .side-bar {
-    justify-content: space-between;
+    flex-shrink: 0;
     width: 250px;
     height: 100%;
     background: #000;
@@ -67,30 +87,55 @@ h2,h3 {
 
 .side-container .settings {
     list-style: none;
-    margin-top: 30px;
 }
-
 
 .side-container .settings img {
-    width: 15%;
-}
-
-.side-container .playlist {
-    margin-top: 20px;
-}
-
-.side-container .playlist > div {
-    margin-top: 15px;
+    vertical-align: middle;
+    width: 30px;
 }
 
 .side-bar .account hr {
     border: 1px solid #777;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
+
+.side-bar .account img {
+    background: #777;
+    width: 30px;
+    vertical-align: middle;
+}
+
+.side-bar .account h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /* Main Container */
 .main-container {
-    background: red;
+    background: #141922;
+}
+
+.main-container .call-to-action {
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: right;
+    width: calc(100% - 250px);
+    background: rgba(0,0,0,.5);
+}
+
+
+.main-container .call-to-action .button {
+    display: inline-block;
+    padding: 15px 40px;
+    margin-right: 5px;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+}
+
+.main-container .content {
+    padding-top: 100px;
 }
 
 /* FOOTER */
