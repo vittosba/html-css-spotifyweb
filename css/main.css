@@ -81,6 +81,7 @@ h2,h3,h4 {
 }
 
 .principal-bar {
+    position: relative;
     height: 4px;
     background: #5A5A5A;
     border-radius: 10px;
@@ -108,6 +109,24 @@ h2,h3,h4 {
 .hover-size:hover {
     transform: scale(1.1);
 }
+
+.hover-bar:hover .secondary-bar{
+    background: green;
+}
+
+.hover-bar:hover .secondary-bar::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+
 
 /* MAIN */
 /* Side Bar */
